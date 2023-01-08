@@ -289,6 +289,15 @@ footer {
         padding: 0;
     }
 
+    /* we do it here for both the tablet and the smart phone*/
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+
+    }
+
     /* Here we do it to hide the line ubder the text*/
     hr {            
         display: none;
@@ -296,7 +305,7 @@ footer {
     
 }
 
-/* For medium screen sizes from 950px wide and down */
+/* For medium screen sizes from 950px wide and down (mobile phones)*/
 @media screen  and (max-width: 950px) {
     
     #menu {
